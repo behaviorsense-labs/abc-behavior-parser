@@ -1,0 +1,11 @@
+id,observation_text,expected_antecedent,expected_behavior,expected_consequence,category
+1,"My child got upset when screen time ended and threw the toy.","Screen time ended","Got upset and threw the toy","Not clearly mentioned","transition"
+2,"My child cried after being asked to start homework.","Being asked to start homework","Cried","Not clearly mentioned","homework"
+3,"My child covered ears in the grocery store when the noise became loud.","Noise became loud in grocery store","Covered ears","Not clearly mentioned","sensory"
+4,"My child refused to sit at the table when dinner was served.","Dinner was served","Refused to sit at the table","Not clearly mentioned","mealtime"
+5,"My child screamed after we left the playground.","Leaving the playground","Screamed","Not clearly mentioned","transition"
+6,"My child pushed the worksheet away when asked to write three sentences.","Asked to write three sentences","Pushed worksheet away","Not clearly mentioned","homework"
+7,"My child cried when the bedtime routine started.","Bedtime routine started","Cried","Not clearly mentioned","bedtime"
+8,"My child ran away when asked to clean up toys.","Asked to clean up toys","Ran away","Not clearly mentioned","cleanup"
+9,"My child yelled after losing a turn in the board game.","Losing a turn in the board game","Yelled","Not clearly mentioned","turn-taking"
+10,"My child hid under the table when visitors arrived.","Visitors arrived","Hid under the table","Not clearly mentioned","social/anxiety"

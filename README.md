@@ -48,11 +48,28 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
-
-## How to Run
-
-Install dependencies:
+Run the demo app:
 
 ```bash
-pip install -r requirements.txt
+streamlit run app.py
+```
+
+The app should open in your browser at:
+
+```text
+http://localhost:8501
+```
+
+## Sample Inputs
+
+Try these examples:
+
+```text
+My child got upset when screen time ended and threw the toy.
+
+My child cried after being asked to start homework.
+
+My child covered ears in the grocery store when the noise became loud.
+```

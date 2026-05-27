@@ -13,17 +13,27 @@ def parse_behavior_note(note: str) -> dict:
     category = "general"
     follow_up_question = "What happened immediately before and after the behavior?"
 
-    # Basic ABC extraction
+   # Basic ABC extraction
     if " when " in note_lower:
         parts = note.split("when", 1)
-        behavior = parts[0].strip()
-        antecedent = parts[1].strip()
-
+        before_when = parts[0].strip()
+        after_when = parts[1].strip()
+    
+        # Handle cases like:
+        # "got upset when screen time ended and threw the toy"
+        if " and " in after_when:
+            after_parts = after_when.split(" and ", 1)
+            antecedent = after_parts[0].strip()
+            behavior = f"{before_when} and {after_parts[1].strip()}"
+        else:
+            behavior = before_when
+            antecedent = after_when
+    
     elif " after " in note_lower:
         parts = note.split("after", 1)
         behavior = parts[0].strip()
         antecedent = parts[1].strip()
-
+    
     elif " before " in note_lower:
         parts = note.split("before", 1)
         behavior = parts[0].strip()

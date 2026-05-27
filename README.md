@@ -2,6 +2,8 @@
 
 ABC Behavior Parser is an educational prototype that helps caregivers convert plain-language child behavior notes into a simple ABC structure: Antecedent, Behavior, and Consequence.
 
+A simple educational prototype that helps caregivers organize child behavior observations into ABC format.
+
 ## Example
 
 Input:
@@ -39,3 +41,10 @@ Many parents and caregivers observe behavior every day but may not know how to o
 ## Disclaimer
 
 This project is for educational and caregiver-support purposes only. It is not medical advice, diagnosis, or treatment.
+
+## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt

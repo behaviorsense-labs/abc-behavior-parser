@@ -50,13 +50,9 @@ Install dependencies:
 pip install -r requirements.txt
 
 
-## Sample Inputs
+## How to Run
 
-Try these examples:
+Install dependencies:
 
-```text
-My child got upset when screen time ended and threw the toy.
-
-My child cried after being asked to start homework.
-
-My child covered ears in the grocery store when the noise became loud.
+```bash
+pip install -r requirements.txt

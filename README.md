@@ -48,3 +48,15 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+
+
+## Sample Inputs
+
+Try these examples:
+
+```text
+My child got upset when screen time ended and threw the toy.
+
+My child cried after being asked to start homework.
+
+My child covered ears in the grocery store when the noise became loud.

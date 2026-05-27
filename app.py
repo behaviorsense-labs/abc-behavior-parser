@@ -26,6 +26,7 @@ if st.button("Parse Note"):
         st.write(f"**Behavior:** {result['behavior']}")
         st.write(f"**Consequence:** {result['consequence']}")
         st.write(f"**Possible Trigger:** {result['possible_trigger']}")
+        st.write(f"**Category:** {result['category']}")
         st.write(f"**Suggested Follow-up Question:** {result['suggested_follow_up_question']}")
 
 st.divider()

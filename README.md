@@ -73,3 +73,8 @@ My child cried after being asked to start homework.
 
 My child covered ears in the grocery store when the noise became loud.
 ```
+## Project Status
+
+Version 1 is a rule-based educational prototype. It currently supports simple ABC extraction, behavior category detection, possible trigger identification, and caregiver follow-up questions.
+
+Future versions may include a larger synthetic dataset, improved parsing rules, a Hugging Face demo, and optional AI-assisted summarization.
